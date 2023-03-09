@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Courier New', monospace;
+   background-color: #5A1C66;
+   overflow: hidden;
+}
+input {
+	font-family: 'Courier New', monospace;
+   background-color: #D985EA;
+}
+
+
+button {
+	font-family: 'Courier New', monospace;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	border: rgba(97, 97, 97, 0.61) solid 1px;
+	box-shadow: 0 9px #9D30B3;
+   background-color: #D985EA;
+}
+button:hover {
+	background-color: #dadada;
+}
+button:active {
+	background-color: #aaaaaa;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+main {
+   margin-top: 10vh;
+   overflow: scroll;
+   min-height: max-content;
+   max-height: 80vh;
+	border: 2px solid;
+	width: 60vw;
+	max-width: 600px;
+	margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 100vh;
+   background-color: #CA3EE6;
+}
+
+.title {
+	text-align: center;
+}
+
+.subTitle {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	padding-bottom: 10px;
+}
+.addBtn {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+	main {
+		width: 100%;
+		border: none;
+	}
+}
