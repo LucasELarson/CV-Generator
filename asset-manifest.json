@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/LucasELarson/CV-Generator/static/css/main.79a865f1.css",
-    "main.js": "/LucasELarson/CV-Generator/static/js/main.1fa301d5.js",
-    "index.html": "/LucasELarson/CV-Generator/index.html",
-    "main.79a865f1.css.map": "/LucasELarson/CV-Generator/static/css/main.79a865f1.css.map",
-    "main.1fa301d5.js.map": "/LucasELarson/CV-Generator/static/js/main.1fa301d5.js.map"
+    "main.css": "/CV-Generator/static/css/main.79a865f1.css",
+    "main.js": "/CV-Generator/static/js/main.1fa301d5.js",
+    "index.html": "/CV-Generator/index.html",
+    "main.79a865f1.css.map": "/CV-Generator/static/css/main.79a865f1.css.map",
+    "main.1fa301d5.js.map": "/CV-Generator/static/js/main.1fa301d5.js.map"
   },
   "entrypoints": [
     "static/css/main.79a865f1.css",
